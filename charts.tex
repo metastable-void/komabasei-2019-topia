@@ -1,0 +1,249 @@
+% -*- tab-width: 4; indent-tabs-mode: t -*-
+
+\documentclass[9pt,a3paper,oneside,twocolumn]{ltjsarticle}
+
+\usepackage[truedimen,
+	top=2cm,bottom=2cm,
+	left=1cm,right=1cm]{geometry}
+
+\pagestyle{empty}
+
+\usepackage[match]{luatexja-fontspec}
+\setmainfont[Scale=1.00375]{Zilla Slab Light}[
+	BoldFont={Zilla Slab Regular},
+	ItalicFont={Zilla Slab Light Italic},
+	BoldItalicFont={Zilla Slab Italic}
+]
+\setsansfont[Scale=1.00375]{Fira Sans Light}[
+	BoldFont={Fira Sans Regular},
+	ItalicFont={Fira Sans Light Italic},
+	BoldItalicFont={Fira Sans Italic}
+]
+\setmonofont[Scale=1.00375]{Fira Mono}
+
+\setmainjfont[Scale=1.00375]{Noto Serif CJK JP Light}[
+	AutoFakeSlant=0.2,
+	BoldFont={Noto Serif CJK JP Regular},
+	BoldItalicFont={Noto Serif CJK JP Regular},
+	BoldSlantedFont={Noto Serif CJK JP Regular},
+	BoldItalicFeatures={FakeSlant=0.2},
+	BoldSlantedFeatures={FakeSlant=0.2}
+]
+\setsansjfont[Scale=1.00375]{Noto Sans CJK JP Light}[
+	AutoFakeSlant=0.2,
+	BoldFont={Noto Sans CJK JP Regular},
+	BoldItalicFont={Noto Sans CJK JP Regular},
+	BoldSlantedFont={Noto Sans CJK JP Regular},
+	BoldItalicFeatures={FakeSlant=0.2},
+	BoldSlantedFeatures={FakeSlant=0.2}
+]
+
+\usepackage{luatexja-adjust}
+\usepackage{luatexja-ruby}
+\usepackage[
+	pdfencoding=auto,
+	hidelinks,
+	unicode,
+	bookmarks,
+	pdftoolbar=false,
+	pdfmenubar=false,
+	colorlinks=false,
+	pdfcreator={},
+	pdfproducer={}
+]{hyperref}
+
+\usepackage{hyperref}
+\usepackage{luatexja-ruby}
+\usepackage{footnote}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\makesavenoteenv{tabular}
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+%\linespread{1.24565375}
+
+\begin{document}
+
+\title{図解用語集}
+\author{Twitter: @\_uts2\footnote{E-mail: metastable@menhera.org}}
+\date{}
+
+\maketitle
+
+人一人ひとりには、セクシャリティに関わるものだけでもさまざまな属性があり、それらはすべての人がその人であるための根本的なあり方に関わっています。
+
+以下に主要な属性の例と、その組み合わせの多様な世界について、ごく一部を図にして紹介します。（それぞれの用語については用語集参照）
+
+ここに示すそれぞれの内容は白黒の属性だけではなく、またそれぞれの欄が必ずしも単一の軸だけで評価されるものではなく、さまざまな概念を同時に含んだり、あるいは柔軟な扱いを要することがあるので安易な分類には注意が必要な面もあります。
+
+主要な属性を表\ref{table:attr}に示しました。
+
+\begin{table}[h]
+\begin{tabular}{p{1.25cm}|p{1.25cm}|p{1.25cm}|p{1.25cm}|p{1.25cm}|p{1.25cm}|p{1.5cm}}
+\hline
+\textbf{身体的\newline{}性別}\footnotemark[1] & \textbf{性自認} & \textbf{性表現} & \textbf{恋愛\newline{}指向} & \textbf{性的\newline{}指向} & \textbf{交際\newline{}関係} & … \\
+\hline
+\hline
+\multicolumn{7}{c}{以下は典型的な例} \\
+\hline
+男性 & 男性 & ときどき女装 & 女性の方が多い & 主に女性 & 複数いても可 & 「女装をすることもある男性」 \\
+\hline
+女性 & 男性 & 中性的 & 場合により変わる & 場合により変わる & ひとり・排他的 & 「FtMの男性」 \\
+\hline
+女性\newline{}{\small{}DSD\footnotemark[2]あり} & 女性 & 無性よりの女性 & 基本的に男性 & 基本的に男性 & ひとり・融通がきく & 「{\small{}（DSDをもった）}女性」 \\
+\hline
+男性 & 無性よりの女性 & 中性的な女性 & 性別をとわない & ほとんどない・わからない & まったく気にしない & 「XジェンダーよりのMtF女性」 \\
+\hline
+… & & & & & & \\
+\hline
+\end{tabular}
+\caption{さまざまな属性の例}
+\label{table:attr}
+\end{table}
+\footnotetext[1]{割り当てられた性別; Assigned sex}
+\footnotetext[2]{Differences in Sexual Development; 性分化の多様性（性分化疾患）、これがあっても通常は男女のどちらかに適切に分類され、かつ多くの人はそうでない人の多くがそうであるように性的マイノリティーではない。}
+\setcounter{footnote}{2}
+
+例えば性自認だけをとっても表\ref{table:genderidentity}のように複数の軸を持った空間を構成していることがわかります。
+
+\begin{table}[h]
+\begin{tabular}{|llcrr}
+\hline
+無性 & & &　無性よりの男性 & → 男性 \\
+& & & 中性よりの男性 & \\
+& & & & \\
+& & 中性 & & \\
+無性より & & & & \\
+の女性 & 中性よりの女性 & & & \\
+↓ & & & & \\
+女性 & & & & 両性 \\
+\end{tabular}
+\caption{性自認の広がり}
+\label{table:genderidentity}
+\end{table}
+
+複数の軸のうちいくつかだけを取り出してみると以下のようになりますが、注意しなくてはいけないのは特定の属性がある値を取るからといって別の属性が特定の値を取るとは限らない点です。特定の属性を理由に相手を決めつけないことがたいせつです。
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|ll}
+& \emph{身体が女性} & \emph{身体が男性} \\
+\hline\hline
+\textbf{性自認が女性} & シスジェンダー女性 & MtF女性 \\
+\hline
+\textbf{性自認がその他} & FtX, nonbinary & MtX, nonbinary \\
+\hline
+\textbf{性自認が男性} & FtM男性 & シスジェンダー男性 \\
+\hline
+\textbf{性自認が常に変化} & \multicolumn{2}{c}{Gender Fluid} \\
+\hline
+\textbf{わからない} & \multicolumn{2}{c}{Questioning} \\
+\hline
+\end{tabular}
+\caption{性自認と身体的性別\footnotemark[1]の表（大幅に簡略化）}
+\label{table:genderidentity_sex}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l||l|l|l}
+& \emph{女性装をする} & \emph{その他} & \emph{男性装をする} \\
+\hline\hline
+\textbf{性自認が女性} & 「普通の」女性 & \multirow{3}{*}{（その他）} & 男装をする女性 \\
+\cline{1-2}\cline{4-4}
+\textbf{性自認がその他} & 女装 & & 男装 \\
+\cline{1-2}\cline{4-4}
+\textbf{性自認が男性} & 女装をする男性 & & 「普通の」男性 \\
+\hline
+\end{tabular}
+\caption{性自認と性表現の表（大幅に簡略化）}
+\label{table:genderidentity_expression}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l||l|l|l|l|l}
+相手が→ & \emph{女性} & \emph{男性と女性} & \emph{性別をとわない} & \emph{その他} & \emph{男性} \\
+\hline\hline
+\textbf{性自認が女性} & レズビアン & \multirow{3}{*}{バイセクシャル} & \multirow{3}{*}{パンセクシャル} & \multirow{3}{*}{その他} & ヘテロ女性 \\
+\cline{1-2}\cline{6-6}
+\textbf{性自認がその他} & （女性愛者） & & & & （男性愛者） \\
+\cline{1-2}\cline{6-6}
+\textbf{性自認が男性} & ヘテロ男性 & & & & ゲイ \\
+\hline
+\end{tabular}
+\caption{性自認と性的指向の表（恋愛指向についても同様）}
+\label{table:genderidentity_orientation}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|llll}
+\hline
+\textbf{感情を抱かない} & \multicolumn{4}{c}{\(\emptyset\) アセクシャル（エイセクシャル）\footnotemark} \\
+\hline\hline
+相手が→ & … & \emph{男性と女性} & \emph{性別をとわない} & \emph{その他} \\
+\hline\hline
+\multirow{2}{*}{\textbf{「普通に」抱く}} & … & バイセクシャル & パンセクシャル & \\
+& \multicolumn{4}{c}{（・（アロ）セクシャル）} \\
+\hline
+\multirow{2}{*}{\textbf{性的感情か判別不能}} & … & バイセクシャル & パンセクシャル & \\
+& \multicolumn{4}{c}{・クワセクシャル} \\
+\hline
+\multirow{2}{*}{\textbf{強い情緒的つながりが条件}} & … & バイセクシャル & パンセクシャル & \\
+& \multicolumn{4}{c}{・デミセクシャル} \\
+\hline
+\textbf{変化する} & \multicolumn{4}{c}{セクシャルフルイッド} \\
+\hline
+\end{tabular}
+\caption{性的指向のかたち（恋愛指向についても同様）（一部省略）}
+\label{table:sexual_orientation}
+\end{table}
+
+\footnotetext{アセクシャル・アロマンティックの英語での正しい発音は/eɪ/-です。}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lr||c|c|c|c}
+& & \multicolumn{4}{c}{\textbf{恋愛指向}} \\
+& & & 男性と女性 & 性別をとわない & \(\emptyset\) \\
+& & & バイロマン & パンロマン & アロマン \\
+& & … & ティック & ティック & ティック\footnotemark[3] \\
+\hline\hline
+\multirow{4}{*}{\hbox{\tate\textbf{性的指向}}} & … & … & & & \\
+\cline{2-6}
+& 男性と女性 & & （一致） & & \\
+\cline{2-6}
+& 性別をとわない & & & （一致） & \\
+\cline{2-6}
+& \(\emptyset\)（アセクシャル\footnotemark[3]） & & & & （一致） \\
+\hline
+\end{tabular}
+\caption{恋愛指向と性的指向の表（一部省略）}
+\label{table:orientation}
+\end{table}
+
+このように、従来一つと考えられていた属性にもしばしば複数の側面があって、それらの組み合わせだけでも膨大になるということがわかります。さらには、「一つの」軸をとっても、それがしばしばグラデーションになっているため、1か0で決められるものではないことがしばしばです。
+
+あなたもぜひここでは触れられていない属性の組み合わせについて考えてみてください。
+
+\vfill\noindent\hrulefill
+
+\section*{精密セクシャリティ診断}
+
+TOPIAでは、簡易ながら従来のものより、より正確なセクシャリティ診断をつくりましたので以下のサイトからお試しください！
+
+この診断から情報を収集することはありません。
+
+セクシャリティ診断：
+\url{https://www.exec.su/sexuality-test/}
+
+QR code:
+
+\noindent\includegraphics[width=.5\linewidth]{sexuality-test-qr.eps}
+
+\end{document}
+
